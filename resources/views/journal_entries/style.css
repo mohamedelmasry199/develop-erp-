@@ -1,0 +1,311 @@
+body {
+  font-family: "Roboto", "Segoe UI", Tahoma, Helvetica, "Open Sans", arial,
+    serif !important;
+  background-color: #e4ebf2 !important;
+}
+.main-border-color {
+  border-color: #e9ecef;
+  border-style: solid;
+  border-width: 1px;
+}
+.font-weight-bold {
+  font-weight: 700;
+}
+.pointer {
+  cursor: pointer;
+}
+#journal-table-new {
+  margin: 25px 0;
+  width: 100%;
+}
+.journal-table-main-cell {
+  padding: 20px 10px;
+  text-align: right;
+  background-color: #f6f9fc;
+  color: #75799d;
+}
+.angel-table-icon {
+  color: #b5b7c9;
+  cursor: pointer;
+  transition: all 0.3 ease-in-out;
+}
+
+.angel-table-icon:hover {
+  box-shadow: 0 0 0 1px #28a745 inset;
+}
+
+.journal-table-yellow-cell {
+  border-right: 1px solid #e9ecef;
+  background-color: #fff9db;
+}
+
+tr:hover .angel-table-icon {
+  color: #28a745 !important;
+}
+
+#journal-table-new tr {
+  border-bottom: 1px solid #e9ecef;
+}
+
+.font-size-sm {
+  font-size: 12px;
+}
+
+#journal-table-new .item-name-td {
+  width: 300px;
+  min-width: 300px !important;
+  max-width: 300px;
+}
+
+#journal-table-new .cost-center-cell {
+  min-width: 200px !important;
+}
+#journal-table-new .item-taxes-td {
+  width: 150px;
+  min-width: 150px !important;
+  max-width: 150px;
+}
+table > tbody > tr > td.td_editable > div > span > input[type="number"]:active,
+table > tbody > tr > td.td_editable > div > span > input[type="number"]:focus,
+table > tbody > tr > td.td_editable > div > span > input[type="number"]:hover,
+table > tbody > tr > td.td_editable > div > span > input[type="text"]:active,
+table > tbody > tr > td.td_editable > div > span > input[type="text"]:focus,
+table > tbody > tr > td.td_editable > div > span > input[type="text"]:hover,
+table > tbody > tr > td.td_editable > div > span > select:active,
+table > tbody > tr > td.td_editable > div > span > select:focus,
+table > tbody > tr > td.td_editable > div > span > select:hover,
+table
+  > tbody
+  > tr
+  > td.td_editable
+  > div
+  > span
+  > textarea.editable-area:active,
+table > tbody > tr > td.td_editable > div > span > textarea.editable-area:focus,
+table > tbody > tr > td.td_editable > div > span > textarea.editable-area:hover,
+table > tbody > tr > td.td_editable > div > span > textarea:active,
+table > tbody > tr > td.td_editable > div > span > textarea:focus,
+table > tbody > tr > td.td_editable > div > span > textarea:hover,
+table > tbody > tr > td.td_editable > input[type="number"]:active,
+table > tbody > tr > td.td_editable > input[type="number"]:focus,
+table > tbody > tr > td.td_editable > input[type="number"]:hover,
+table > tbody > tr > td.td_editable > input[type="text"]:active,
+table > tbody > tr > td.td_editable > input[type="text"]:focus,
+table > tbody > tr > td.td_editable > input[type="text"]:hover,
+table > tbody > tr > td.td_editable > select:active,
+table > tbody > tr > td.td_editable > select:focus,
+table > tbody > tr > td.td_editable > select:hover,
+table > tbody > tr > td.td_editable > textarea:active,
+table > tbody > tr > td.td_editable > textarea:focus,
+table > tbody > tr > td.td_editable > textarea:hover {
+  box-shadow: 0 0 0 1px #00b0ef inset;
+  outline: 0;
+}
+
+#journal-table-new tbody > tr > td.td_editable > textarea {
+  min-width: 100px;
+  min-height: 100%;
+  margin: 0 !important;
+  display: block;
+  background-color: transparent;
+  padding: 6px 12px;
+  min-width: 55px;
+  padding: 0 4px;
+  overflow: hidden;
+  line-height: 17px;
+  height: 45px;
+  resize: none;
+  background: 0 0;
+  margin: 0;
+  font-size: 12px;
+  border: 0;
+  padding: 10px;
+  color: rgb(65, 65, 65);
+}
+.delete-cell {
+  padding: 0px 10px !important;
+  cursor: pointer;
+}
+table > tbody > tr > td.delete-cell:hover {
+  box-shadow: 0 0 0 1px #fc5f7d inset;
+}
+
+tbody > tr > td.td_editable > input {
+  height: 65px;
+  margin: 0;
+  display: block;
+  width: 100%;
+  background-color: transparent;
+  border: 0;
+  padding: 6px 12px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.item-name {
+  width: 100%;
+  zoom: 1;
+  display: block;
+  height: 100%;
+  position: relative;
+}
+.item-wrap {
+  position: relative;
+  zoom: 1;
+  display: block;
+  height: 100%;
+  height: 100%;
+  position: relative;
+}
+
+table > tbody > tr > td.td_editable .item-wrap select {
+  height: 65px;
+  margin: 0;
+  display: block;
+  width: 100%;
+  background-color: transparent !important;
+  border: 0;
+  padding: 6px 12px;
+}
+
+.dropdown-toggle {
+  border: 0 !important;
+}
+.selectpicker,
+.bootstrap-select,
+.dropdown-toggle {
+  background-color: transparent !important;
+}
+.bootstrap-select {
+  box-shadow: none !important;
+}
+.bootstrap-select .dropdown-toggle:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+table .bootstrap-select {
+  border-radius: 0;
+}
+table .bootstrap-select:hover {
+  box-shadow: 0 0 0 1px #00b0ef inset !important;
+}
+
+.bootstrap-select {
+  height: 65px;
+  width: 100% !important;
+}
+.dropdown-toggle {
+  height: 100%;
+}
+.dropdown-toggle .filter-option {
+  display: flex;
+  align-items: center;
+}
+.bootstrap-select .dropdown-toggle .caret {
+  right: 90%;
+}
+.dropdown-toggle::after {
+  display: none;
+}
+.bootstrap-select .dropdown-menu {
+  text-align: right;
+}
+.bootstrap-select .dropdown-item {
+  padding-block: 10px;
+  font-weight: 600;
+}
+
+#AddItem {
+  padding: 18px 45px !important;
+  width: 75%;
+  font-size: 18px;
+  background-color: transparent;
+  border: none;
+  border-left: 1px solid #e9ecef;
+}
+#AddItem:hover {
+  color: #313451 !important;
+  background-color: #d9e6f2;
+}
+.table-controller .bootstrap-select {
+  width: 25% !important;
+}
+
+.table-controller .bootstrap-select .dropdown-toggle .caret {
+  right: 50%;
+  transform: translateX(50%);
+}
+
+.table-controller .filter-option-inner {
+  display: none;
+}
+.dropup .dropdown-toggle::after {
+  display: none;
+}
+
+.tblHdr .bootstrap-select .dropdown-toggle .filter-option {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.description_journal {
+  background: #fff;
+  padding: 15px 15px 5px 15px;
+  border: 1px solid #ddd;
+}
+
+.tblHdr .journal-table-main-cell {
+  background-color: #fff;
+}
+
+/* ====================UPLOAD======================= */
+
+.uploadOuter {
+  text-align: center;
+  padding: 20px;
+}
+.uploadOuter strong {
+  padding: 0 10px;
+}
+
+.dragBox {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+  line-height: 95px;
+  color: #999;
+  border: 2px dashed #ccc;
+  display: inline-block;
+  transition: transform 0.3s;
+}
+.dragBox input[type="file"] {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  top: 0;
+  left: 0;
+}
+
+.draging {
+  transform: scale(1.1);
+}
+
+#preview {
+  text-align: center;
+}
+#preview img {
+  max-width: 100%;
+}
